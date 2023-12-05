@@ -31,54 +31,86 @@ const CreationsSection = () => {
                         See all
                     </button>
                 </div>
-                <div className='grid grid-rows-1 md:grid-cols-4 gap-6 text-2xl text-white uppercase '>
-                    <div className='group relative overflow-hidden'>
+                <div className='item-container'>
+                    <div className='group item'>
                         <img src={earthDesktop} alt=""
                             className='hidden w-full duration-200 md:block group-hover:scale-110' />
                         <img src={earthMobile} alt=""
                             className='w-full md:hidden' />
+                        <div className='item-gradient'></div>
+                        <h5>
+                            Deep Earth
+                        </h5>
                     </div>
-                    <div className='group relative overflow-hidden'>
+                    <div className='group item'>
                         <img src={arcadeDesktop} alt=""
                             className='hidden w-full duration-200 md:block group-hover:scale-110' />
                         <img src={arcadeMobile} alt=""
                             className='w-full md:hidden' />
+                        <div className='item-gradient'></div>
+                        <h5>
+                            Night Arcade
+                        </h5>
                     </div>
-                    <div className='group relative overflow-hidden'>
+                    <div className='group item'>
                         <img src={soccerDesktop} alt=""
                             className='hidden w-full duration-200 md:block group-hover:scale-110' />
                         <img src={soccerMobile} alt=""
                             className='w-full md:hidden' />
+                        <div className='item-gradient'></div>
+                        <h5>
+                            Soccer Team VR
+                        </h5>
                     </div>
-                    <div className='group relative overflow-hidden'>
+                    <div className='group item'>
                         <img src={gridDesktop} alt=""
                             className='hidden w-full duration-200 md:block group-hover:scale-110' />
                         <img src={gridMobile} alt=""
                             className='w-full md:hidden' />
+                        <div className='item-gradient'></div>
+                        <h5>
+                            The Grid
+                        </h5>
                     </div>
-                    <div className='group relative overflow-hidden'>
+                    <div className='group item'>
                         <img src={upDesktop} alt=""
                             className='hidden w-full duration-200 md:block group-hover:scale-110' />
                         <img src={upMobile} alt=""
                             className='w-full md:hidden' />
+                        <div className='item-gradient'></div>
+                        <h5>
+                            From Up Above VR
+                        </h5>
                     </div>
-                    <div className='group relative overflow-hidden'>
+                    <div className='group item'>
                         <img src={pocketDesktop} alt=""
                             className='hidden w-full duration-200 md:block group-hover:scale-110' />
                         <img src={pocketMobile} alt=""
                             className='w-full md:hidden' />
+                        <div className='item-gradient'></div>
+                        <h5>
+                            Pocket Borealis
+                        </h5>
                     </div>
-                    <div className='group relative overflow-hidden'>
+                    <div className='group item'>
                         <img src={curiosityDesktop} alt=""
                             className='hidden w-full duration-200 md:block group-hover:scale-110' />
                         <img src={curiosityMobile} alt=""
                             className='w-full md:hidden' />
+                        <div className='item-gradient'></div>
+                        <h5>
+                            The Curiosity
+                        </h5>
                     </div>
-                    <div className='group relative overflow-hidden'>
+                    <div className='group item'>
                         <img src={fishDesktop} alt=""
                             className='hidden w-full duration-200 md:block group-hover:scale-110' />
                         <img src={fishMobile} alt=""
                             className='w-full md:hidden' />
+                        <div className='item-gradient'></div>
+                        <h5>
+                            Make It Fisheye
+                        </h5>
                     </div>
                 </div>
             </div>

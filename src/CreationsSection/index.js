@@ -20,14 +20,13 @@ import fishMobile from '../images/mobile/image-fisheye.jpg';
 const CreationsSection = () => {
     return (
         <section id="creations">
-            <div className='container max-w-6xl mx-auto my-32 px-0
+            <div className='px-5 container max-w-6xl mx-auto my-32 
             text-gray-900 md:px-0'>
                 <div className='flex flex-row justify-center mb-20 items-center md:justify-between'>
                     <h2 className='text-4xl text-center md:text-left md:text-5xl uppercase font-bold'>
                         Our creations
                     </h2>
-                    <button className='hidden border border-black rounded-sm py-2 px-10 text-md uppercase
-                    font-bold font-alata tracking-widest hover:bg-black hover:text-white md:block'>
+                    <button className='hidden btn md:block'>
                         See all
                     </button>
                 </div>
@@ -112,6 +111,9 @@ const CreationsSection = () => {
                             Make It Fisheye
                         </h5>
                     </div>
+                </div>
+                <div className='flex justify-center mt-10 md:hidden'>
+                    <button className='btn w-full md:hidden'>See All</button>
                 </div>
             </div>
         </section>

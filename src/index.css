@@ -9,6 +9,10 @@
   }
 }
 
+.btn {
+  @apply border border-black rounded-sm py-2 px-10 uppercase font-bold font-alata tracking-widest hover:bg-black hover:text-white;
+}
+
 .item-container {
   @apply grid grid-rows-1 md:grid-cols-4 gap-6 text-2xl text-white uppercase;
 }
